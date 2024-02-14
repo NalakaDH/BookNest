@@ -1,0 +1,109 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('Book-blog-image.jpg'); /* Add your image file name */
+  background-size: cover;
+  background-position: center;
+}
+
+  
+  header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e;
+    padding: 0.5em;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-page nav,
+  .register-page nav {
+    background-color: #2c3e50; /* Different background color for login and register pages */
+  }
+  
+  .login-page footer,
+  .register-page footer {
+    background-color: #2c3e50; /* Different background color for login and register pages */
+  }
+  
+  .login-container,
+  .register-container {
+      max-width: 400px;
+      margin: 5% auto; /* Adjust the top margin for better positioning */
+      padding: 2em;
+      background-color: rgba(255, 255, 255, 0.9); /* Add opacity to the background */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form,
+  .register-form {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 1em 0 0.5em;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2980b9;
+    color: #ecf0f1;
+    padding: 0.8em 1.5em; /* Adjust padding for a better button size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+  
+  .login-link,
+  .register-link {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .footer-container {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+  }
+  
+  footer {
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  
+  
